@@ -1,0 +1,60 @@
+# culprits-tiles-gases: the Climate TRACE archives gas by gas, for the Culprits
+# map. Everything it runs lives in culprits-tiles-more (gases/run.sh), so
+# changes come as patches there; this file only fetches that and runs it.
+name: build
+on:
+  schedule:
+    - cron: "43 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the scripts from culprits-tiles-more
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/WelcomeToYourGalaxy/culprits-tiles-more.git "$RUNNER_TEMP/more"
+          git -C "$RUNNER_TEMP/more" sparse-checkout set scripts gases .github
+      - name: Copy what is already built, once
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: bash "$RUNNER_TEMP/more/gases/run.sh" seed
+
+  gas:
+    needs: seed
+    runs-on: ubuntu-latest
+    timeout-minutes: 175
+    strategy:
+      fail-fast: false
+      matrix:
+        job: [ct_gases, ct_gases_ch4, ct_gases_n2o]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch the scripts from culprits-tiles-more
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/WelcomeToYourGalaxy/culprits-tiles-more.git "$RUNNER_TEMP/more"
+          git -C "$RUNNER_TEMP/more" sparse-checkout set scripts gases .github
+      - name: Build ${{ matrix.job }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: bash "$RUNNER_TEMP/more/gases/run.sh" ${{ matrix.job }}
