@@ -107,6 +107,14 @@
     "files": 1
    },
    {
+    "id": "climate_trace_co2_industrial_wastewater_treatment_and_discharge",
+    "subsector": "industrial_wastewater_treatment_and_discharge",
+    "label": "industrial wastewater treatment and discharge",
+    "sector": "waste",
+    "bytes": 8369654,
+    "files": 1
+   },
+   {
     "id": "climate_trace_co2_international_aviation",
     "subsector": "international_aviation",
     "label": "international aviation",
@@ -275,6 +283,14 @@
     "files": 2
    },
    {
+    "id": "climate_trace_co2_solid_waste_disposal",
+    "subsector": "solid_waste_disposal",
+    "label": "solid waste disposal",
+    "sector": "waste",
+    "bytes": 81473116,
+    "files": 1
+   },
+   {
     "id": "climate_trace_co2_synthetic_fertilizer_application",
     "subsector": "synthetic_fertilizer_application",
     "label": "synthetic fertilizer application",
@@ -312,358 +328,428 @@
     "built": 1790293031,
     "archives": [
      "climate_trace_co2_crop_residues"
-    ]
+    ],
+    "checked": 1790670732
    },
    "agriculture/crop_residues_raster": {
-    "checked": 1790293036
+    "checked": 1790670760
    },
    "agriculture/cropland_fires": {
     "built": 1790293997,
     "archives": [
      "climate_trace_co2_cropland_fires"
-    ]
+    ],
+    "checked": 1790670760
    },
    "agriculture/cropland_fires_raster": {
-    "checked": 1790294002
+    "checked": 1790670766
    },
    "agriculture/enteric_fermentation_cattle_operation": {
     "built": 1790298980,
-    "archives": []
+    "archives": [],
+    "checked": 1790670766
    },
    "agriculture/enteric_fermentation_cattle_pasture": {
     "built": 1790310299,
-    "archives": []
+    "archives": [],
+    "checked": 1790670766
    },
    "agriculture/enteric_fermentation_cattle_pasture_raster": {
-    "checked": 1790310302
+    "checked": 1790670770
    },
    "agriculture/enteric_fermentation_other": {
-    "checked": 1790310306
+    "checked": 1790670773
    },
    "agriculture/manure_applied_to_soils": {
     "built": 1790339170,
     "archives": [
      "climate_trace_co2_manure_applied_to_soils"
-    ]
+    ],
+    "checked": 1790670773
    },
    "agriculture/manure_applied_to_soils_raster": {
-    "checked": 1790339174
+    "checked": 1790670776
    },
    "agriculture/manure_left_on_pasture_cattle": {
     "built": 1790340144,
-    "archives": []
+    "archives": [],
+    "checked": 1790670776
    },
    "agriculture/manure_left_on_pasture_cattle_raster": {
-    "checked": 1790340148
+    "checked": 1790670779
    },
    "agriculture/manure_management_cattle_operation": {
     "built": 1790345464,
-    "archives": []
+    "archives": [],
+    "checked": 1790670779
    },
    "agriculture/manure_management_other": {
-    "checked": 1790384681
+    "checked": 1790670783
    },
    "agriculture/other_agricultural_soil_emissions": {
-    "checked": 1790384684
+    "checked": 1790670785
    },
    "agriculture/rice_cultivation": {
     "built": 1790385605,
     "archives": [
      "climate_trace_co2_rice_cultivation"
-    ]
+    ],
+    "checked": 1790670786
    },
    "agriculture/rice_cultivation_raster": {
-    "checked": 1790385609
+    "checked": 1790670788
    },
    "agriculture/synthetic_fertilizer_application": {
     "built": 1790386605,
     "archives": [
      "climate_trace_co2_synthetic_fertilizer_application"
-    ]
+    ],
+    "checked": 1790670789
    },
    "agriculture/synthetic_fertilizer_application_raster": {
-    "checked": 1790386609
+    "checked": 1790670792
    },
    "buildings/non_residential_onsite_fuel_usage": {
     "built": 1790387923,
     "archives": [
      "climate_trace_co2_non_residential_onsite_fuel_usage"
-    ]
+    ],
+    "checked": 1790670792
    },
    "buildings/non_residential_onsite_fuel_usage_raster": {
-    "checked": 1790387925
+    "checked": 1790670794
    },
    "buildings/other_onsite_fuel_usage": {
-    "checked": 1790387927
+    "checked": 1790670795
    },
    "buildings/residential_onsite_fuel_usage": {
     "built": 1790389428,
-    "archives": []
+    "archives": [],
+    "checked": 1790670795
    },
    "buildings/residential_onsite_fuel_usage_raster": {
-    "checked": 1790423649
+    "checked": 1790670797
    },
    "forestry_and_land_use/forest_land_clearing": {
     "built": 1790424789,
     "archives": [
      "climate_trace_co2_forest_land_clearing"
-    ]
+    ],
+    "checked": 1790670797
    },
    "forestry_and_land_use/forest_land_degradation": {
     "built": 1790425743,
     "archives": [
      "climate_trace_co2_forest_land_degradation"
-    ]
+    ],
+    "checked": 1790670798
    },
    "forestry_and_land_use/forest_land_fires": {
     "built": 1790426698,
-    "archives": []
+    "archives": [],
+    "checked": 1790670798
    },
    "forestry_and_land_use/net_forest_land": {
     "built": 1790427809,
     "archives": [
      "climate_trace_co2_net_forest_land"
-    ]
+    ],
+    "checked": 1790670798
    },
    "forestry_and_land_use/net_shrubgrass": {
     "built": 1790513631,
     "archives": [
      "climate_trace_co2_net_shrubgrass"
-    ]
+    ],
+    "checked": 1790670798
    },
    "forestry_and_land_use/net_wetland": {
     "built": 1790514741,
     "archives": [
      "climate_trace_co2_net_wetland"
-    ]
+    ],
+    "checked": 1790670798
    },
    "forestry_and_land_use/removals": {
     "built": 1790515853,
     "archives": [
      "climate_trace_co2_removals"
-    ]
+    ],
+    "checked": 1790670799
    },
    "forestry_and_land_use/shrubgrass_fires": {
     "built": 1790516807,
     "archives": [
      "climate_trace_co2_shrubgrass_fires"
-    ]
+    ],
+    "checked": 1790670799
    },
    "forestry_and_land_use/forest_land_clearing_raster": {
-    "checked": 1790605573
+    "checked": 1790670811
    },
    "forestry_and_land_use/forest_land_degradation_raster": {
-    "checked": 1790605575
+    "checked": 1790670814
    },
    "forestry_and_land_use/forest_land_fires_raster": {
-    "checked": 1790605577
+    "checked": 1790670816
    },
    "forestry_and_land_use/net_forest_land_raster": {
-    "checked": 1790605578
+    "checked": 1790670817
    },
    "forestry_and_land_use/net_shrubgrass_raster": {
-    "checked": 1790605580
+    "checked": 1790670818
    },
    "forestry_and_land_use/net_soil_organic_carbon": {
     "built": 1790606708,
     "archives": [
      "climate_trace_co2_net_soil_organic_carbon"
-    ]
+    ],
+    "checked": 1790670819
    },
    "forestry_and_land_use/net_soil_organic_carbon_raster": {
-    "checked": 1790606711
+    "checked": 1790670820
    },
    "forestry_and_land_use/net_wetland_raster": {
-    "checked": 1790606712
+    "checked": 1790670821
    },
    "forestry_and_land_use/removals_raster": {
-    "checked": 1790606714
+    "checked": 1790670822
    },
    "forestry_and_land_use/shrubgrass_fires_raster": {
-    "checked": 1790606716
+    "checked": 1790670824
    },
    "forestry_and_land_use/water_reservoirs": {
     "built": 1790606792,
     "archives": [
      "climate_trace_co2_water_reservoirs"
-    ]
+    ],
+    "checked": 1790670824
    },
    "forestry_and_land_use/wetland_fires": {
     "built": 1790607718,
     "archives": [
      "climate_trace_co2_wetland_fires"
-    ]
+    ],
+    "checked": 1790670825
    },
    "forestry_and_land_use/wetland_fires_raster": {
-    "checked": 1790607721
+    "checked": 1790670826
    },
    "fossil_fuel_operations/coal_mining": {
     "built": 1790607778,
     "archives": [
      "climate_trace_co2_coal_mining"
-    ]
+    ],
+    "checked": 1790670826
    },
    "fossil_fuel_operations/oil_and_gas_production": {
     "built": 1790607789,
     "archives": [
      "climate_trace_co2_oil_and_gas_production"
-    ]
+    ],
+    "checked": 1790670826
    },
    "fossil_fuel_operations/oil_and_gas_refining": {
     "built": 1790607798,
     "archives": [
      "climate_trace_co2_oil_and_gas_refining"
-    ]
+    ],
+    "checked": 1790670827
    },
    "fossil_fuel_operations/oil_and_gas_transport": {
     "built": 1790607808,
     "archives": [
      "climate_trace_co2_oil_and_gas_transport"
-    ]
+    ],
+    "checked": 1790670827
    },
    "fossil_fuel_operations/other_fossil_fuel_operations": {
-    "checked": 1790607808
+    "checked": 1790670827
    },
    "fossil_fuel_operations/other_solid_fuels": {
-    "checked": 1790607809
+    "checked": 1790670828
    },
    "manufacturing/aluminum": {
     "built": 1790607814,
     "archives": [
      "climate_trace_co2_aluminum"
-    ]
+    ],
+    "checked": 1790670828
    },
    "manufacturing/cement": {
     "built": 1790607845,
     "archives": [
      "climate_trace_co2_cement"
-    ]
+    ],
+    "checked": 1790670828
    },
    "manufacturing/chemicals": {
     "built": 1790607851,
     "archives": [
      "climate_trace_co2_chemicals"
-    ]
+    ],
+    "checked": 1790670828
    },
    "manufacturing/other_manufacturing": {
     "built": 1790607856,
     "archives": [
      "climate_trace_co2_other_manufacturing"
-    ]
+    ],
+    "checked": 1790670829
    },
    "manufacturing/petrochemical_steam_cracking": {
     "built": 1790607860,
     "archives": [
      "climate_trace_co2_petrochemical_steam_cracking"
-    ]
+    ],
+    "checked": 1790670829
    },
    "manufacturing/pulp_and_paper": {
     "built": 1790607865,
     "archives": [
      "climate_trace_co2_pulp_and_paper"
-    ]
+    ],
+    "checked": 1790670829
    },
    "manufacturing/iron_and_steel": {
     "built": 1790607879,
     "archives": [
      "climate_trace_co2_iron_and_steel"
-    ]
+    ],
+    "checked": 1790670829
    },
    "manufacturing/other_chemicals": {
     "built": 1790607885,
     "archives": [
      "climate_trace_co2_other_chemicals"
-    ]
+    ],
+    "checked": 1790670829
    },
    "manufacturing/glass": {
     "built": 1790607891,
     "archives": [
      "climate_trace_co2_glass"
-    ]
+    ],
+    "checked": 1790670830
    },
    "manufacturing/lime": {
     "built": 1790607912,
     "archives": [
      "climate_trace_co2_lime"
-    ]
+    ],
+    "checked": 1790670830
    },
    "manufacturing/food_beverage_tobacco": {
     "built": 1790608078,
     "archives": [
      "climate_trace_co2_food_beverage_tobacco"
-    ]
+    ],
+    "checked": 1790670830
    },
    "manufacturing/wood_and_wood_products": {
-    "checked": 1790608078
+    "checked": 1790670831
    },
    "manufacturing/textiles_leather_apparel": {
     "built": 1790608199,
     "archives": [
      "climate_trace_co2_textiles_leather_apparel"
-    ]
+    ],
+    "checked": 1790670831
    },
    "manufacturing/other_metals": {
     "built": 1790608205,
     "archives": [
      "climate_trace_co2_other_metals"
-    ]
+    ],
+    "checked": 1790670831
    },
    "power/electricity_generation": {
     "built": 1790608330,
     "archives": [
      "climate_trace_co2_electricity_generation"
-    ]
+    ],
+    "checked": 1790670831
    },
    "power/other_energy_use": {
-    "checked": 1790608331
+    "checked": 1790670832
    },
    "power/heat_plants": {
-    "checked": 1790608332
+    "checked": 1790670832
    },
    "transportation/domestic_aviation": {
     "built": 1790608400,
     "archives": [
      "climate_trace_co2_domestic_aviation"
-    ]
+    ],
+    "checked": 1790670833
    },
    "transportation/domestic_shipping": {
     "built": 1790608515,
     "archives": [
      "climate_trace_co2_domestic_shipping"
-    ]
+    ],
+    "checked": 1790670833
    },
    "transportation/domestic_shipping_ship": {
-    "checked": 1790608517
+    "checked": 1790670834
    },
    "transportation/international_aviation": {
     "built": 1790608546,
     "archives": [
      "climate_trace_co2_international_aviation"
-    ]
+    ],
+    "checked": 1790670834
    },
    "transportation/international_shipping": {
     "built": 1790608651,
     "archives": [
      "climate_trace_co2_international_shipping"
-    ]
+    ],
+    "checked": 1790670835
    },
    "transportation/international_shipping_ship": {
-    "checked": 1790608653
+    "checked": 1790670836
    },
    "transportation/non_broadcasting_vessels": {
-    "checked": 1790608655
+    "checked": 1790670838
    },
    "transportation/other_transport": {
-    "checked": 1790608656
+    "checked": 1790670839
    },
    "transportation/railways": {
-    "checked": 1790608658
+    "checked": 1790670840
    },
    "transportation/road_transportation": {
     "built": 1790610344,
+    "archives": [],
+    "checked": 1790670840
+   },
+   "transportation/road_transportation_road_segment": {
+    "checked": 1790668748
+   },
+   "waste/biological_treatment_of_solid_waste_and_biogenic": {
+    "checked": 1790668750
+   },
+   "waste/domestic_wastewater_treatment_and_discharge": {
+    "built": 1790670557,
     "archives": []
+   },
+   "waste/incineration_and_open_burning_of_waste": {
+    "checked": 1790670564
+   },
+   "waste/industrial_wastewater_treatment_and_discharge": {
+    "built": 1790670579,
+    "archives": [
+     "climate_trace_co2_industrial_wastewater_treatment_and_discharge"
+    ]
+   },
+   "waste/solid_waste_disposal": {
+    "built": 1790670731,
+    "archives": [
+     "climate_trace_co2_solid_waste_disposal"
+    ]
    }
   },
-  "built": 1790610344
+  "built": 1790670731
  }
 }
