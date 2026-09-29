@@ -1,0 +1,91 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 18007743
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_2.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 63693520,
+   "columns": [
+    6,
+    265
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_3.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 61602417,
+   "columns": [
+    266,
+    509
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_4.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 68105562,
+   "columns": [
+    13,
+    529
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_5.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 67942671,
+   "columns": [
+    530,
+    1019
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_6.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 73727087,
+   "columns": [
+    26,
+    1056
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_7.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 73709843,
+   "columns": [
+    1057,
+    2039
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_8.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 77917007,
+   "columns": [
+    53,
+    2113
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge_9.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 77694794,
+   "columns": [
+    2114,
+    4078
+   ]
+  }
+ ],
+ "zoom": 12
+}

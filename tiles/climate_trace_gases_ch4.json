@@ -3,6 +3,14 @@
   "name": "methane",
   "archives": [
    {
+    "id": "climate_trace_ch4_coal_mining",
+    "subsector": "coal_mining",
+    "label": "coal mining",
+    "sector": "fossil_fuel_operations",
+    "bytes": 25534106,
+    "files": 1
+   },
+   {
     "id": "climate_trace_ch4_crop_residues",
     "subsector": "crop_residues",
     "label": "crop residues",
@@ -17,6 +25,14 @@
     "sector": "agriculture",
     "bytes": 211586346,
     "files": 3
+   },
+   {
+    "id": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge",
+    "subsector": "domestic_wastewater_treatment_and_discharge",
+    "label": "domestic wastewater treatment and discharge",
+    "sector": "waste",
+    "bytes": 582400644,
+    "files": 9
    },
    {
     "id": "climate_trace_ch4_enteric_fermentation_cattle_operation",
@@ -49,6 +65,38 @@
     "sector": "agriculture",
     "bytes": 185766574,
     "files": 3
+   },
+   {
+    "id": "climate_trace_ch4_oil_and_gas_production",
+    "subsector": "oil_and_gas_production",
+    "label": "oil and gas production",
+    "sector": "fossil_fuel_operations",
+    "bytes": 8642645,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_oil_and_gas_refining",
+    "subsector": "oil_and_gas_refining",
+    "label": "oil and gas refining",
+    "sector": "fossil_fuel_operations",
+    "bytes": 4992311,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_oil_and_gas_transport",
+    "subsector": "oil_and_gas_transport",
+    "label": "oil and gas transport",
+    "sector": "fossil_fuel_operations",
+    "bytes": 6326170,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_synthetic_fertilizer_application",
+    "subsector": "synthetic_fertilizer_application",
+    "label": "synthetic fertilizer application",
+    "sector": "agriculture",
+    "bytes": 160530967,
+    "files": 2
    }
   ],
   "units": {
@@ -109,8 +157,69 @@
    "agriculture/manure_management_cattle_operation": {
     "built": 1790610582,
     "archives": []
+   },
+   "agriculture/manure_management_other": {
+    "checked": 1790668601
+   },
+   "agriculture/other_agricultural_soil_emissions": {
+    "checked": 1790668605
+   },
+   "agriculture/rice_cultivation": {
+    "built": 1790669497,
+    "archives": []
+   },
+   "agriculture/rice_cultivation_raster": {
+    "checked": 1790669505
+   },
+   "agriculture/synthetic_fertilizer_application": {
+    "built": 1790670501,
+    "archives": [
+     "climate_trace_ch4_synthetic_fertilizer_application"
+    ]
+   },
+   "agriculture/synthetic_fertilizer_application_raster": {
+    "checked": 1790670505
+   },
+   "fossil_fuel_operations/coal_mining": {
+    "built": 1790670563,
+    "archives": [
+     "climate_trace_ch4_coal_mining"
+    ]
+   },
+   "fossil_fuel_operations/oil_and_gas_production": {
+    "built": 1790670573,
+    "archives": [
+     "climate_trace_ch4_oil_and_gas_production"
+    ]
+   },
+   "fossil_fuel_operations/oil_and_gas_refining": {
+    "built": 1790670582,
+    "archives": [
+     "climate_trace_ch4_oil_and_gas_refining"
+    ]
+   },
+   "fossil_fuel_operations/oil_and_gas_transport": {
+    "built": 1790670592,
+    "archives": [
+     "climate_trace_ch4_oil_and_gas_transport"
+    ]
+   },
+   "fossil_fuel_operations/other_fossil_fuel_operations": {
+    "checked": 1790670592
+   },
+   "fossil_fuel_operations/other_solid_fuels": {
+    "checked": 1790670593
+   },
+   "waste/biological_treatment_of_solid_waste_and_biogenic": {
+    "checked": 1790670594
+   },
+   "waste/domestic_wastewater_treatment_and_discharge": {
+    "built": 1790672571,
+    "archives": [
+     "climate_trace_ch4_domestic_wastewater_treatment_and_discharge"
+    ]
    }
   },
-  "built": 1790610582
+  "built": 1790672571
  }
 }
