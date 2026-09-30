@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_solid_waste_disposal.pmtiles",
+   "from": 0,
+   "to": 11,
+   "bytes": 93940781
+  },
+  {
+   "file": "climate_trace_ch4_solid_waste_disposal_2.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 25401723
+  }
+ ],
+ "zoom": 12
+}

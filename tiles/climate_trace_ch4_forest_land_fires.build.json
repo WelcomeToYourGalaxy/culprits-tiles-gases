@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_forest_land_fires.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 87152618
+  },
+  {
+   "file": "climate_trace_ch4_forest_land_fires_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 64771221
+  }
+ ],
+ "zoom": 12
+}
