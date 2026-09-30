@@ -27,6 +27,14 @@
     "files": 2
    },
    {
+    "id": "climate_trace_n2o_forest_land_fires",
+    "subsector": "forest_land_fires",
+    "label": "forest land fires",
+    "sector": "forestry_and_land_use",
+    "bytes": 151901898,
+    "files": 2
+   },
+   {
     "id": "climate_trace_n2o_manure_applied_to_soils",
     "subsector": "manure_applied_to_soils",
     "label": "manure applied to soils",
@@ -49,6 +57,14 @@
     "sector": "agriculture",
     "bytes": 378254777,
     "files": 5
+   },
+   {
+    "id": "climate_trace_n2o_net_wetland",
+    "subsector": "net_wetland",
+    "label": "net wetland",
+    "sector": "forestry_and_land_use",
+    "bytes": 161213372,
+    "files": 2
    },
    {
     "id": "climate_trace_n2o_rice_cultivation",
@@ -147,8 +163,28 @@
     "archives": [
      "climate_trace_n2o_forest_land_degradation"
     ]
+   },
+   "forestry_and_land_use/forest_land_fires": {
+    "built": 1790775105,
+    "archives": [
+     "climate_trace_n2o_forest_land_fires"
+    ]
+   },
+   "forestry_and_land_use/net_forest_land": {
+    "built": 1790776056,
+    "archives": []
+   },
+   "forestry_and_land_use/net_shrubgrass": {
+    "built": 1790777011,
+    "archives": []
+   },
+   "forestry_and_land_use/net_wetland": {
+    "built": 1790777953,
+    "archives": [
+     "climate_trace_n2o_net_wetland"
+    ]
    }
   },
-  "built": 1790672836
+  "built": 1790777953
  }
 }
