@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_net_soil_organic_carbon.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 90371556
+  },
+  {
+   "file": "climate_trace_n2o_net_soil_organic_carbon_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 66058006
+  }
+ ],
+ "zoom": 12
+}

@@ -59,6 +59,14 @@
     "files": 5
    },
    {
+    "id": "climate_trace_n2o_net_soil_organic_carbon",
+    "subsector": "net_soil_organic_carbon",
+    "label": "net soil organic carbon",
+    "sector": "forestry_and_land_use",
+    "bytes": 156429562,
+    "files": 2
+   },
+   {
     "id": "climate_trace_n2o_net_wetland",
     "subsector": "net_wetland",
     "label": "net wetland",
@@ -72,6 +80,30 @@
     "label": "rice cultivation",
     "sector": "agriculture",
     "bytes": 153925269,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_n2o_shrubgrass_fires",
+    "subsector": "shrubgrass_fires",
+    "label": "shrubgrass fires",
+    "sector": "forestry_and_land_use",
+    "bytes": 150424186,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_n2o_water_reservoirs",
+    "subsector": "water_reservoirs",
+    "label": "water reservoirs",
+    "sector": "forestry_and_land_use",
+    "bytes": 30503648,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_wetland_fires",
+    "subsector": "wetland_fires",
+    "label": "wetland fires",
+    "sector": "forestry_and_land_use",
+    "bytes": 146542719,
     "files": 2
    }
   ],
@@ -183,8 +215,63 @@
     "archives": [
      "climate_trace_n2o_net_wetland"
     ]
+   },
+   "forestry_and_land_use/removals": {
+    "built": 1790865141,
+    "archives": []
+   },
+   "forestry_and_land_use/shrubgrass_fires": {
+    "built": 1790865997,
+    "archives": [
+     "climate_trace_n2o_shrubgrass_fires"
+    ]
+   },
+   "forestry_and_land_use/forest_land_clearing_raster": {
+    "checked": 1790866000
+   },
+   "forestry_and_land_use/forest_land_degradation_raster": {
+    "checked": 1790866002
+   },
+   "forestry_and_land_use/forest_land_fires_raster": {
+    "checked": 1790866004
+   },
+   "forestry_and_land_use/net_forest_land_raster": {
+    "checked": 1790866007
+   },
+   "forestry_and_land_use/net_shrubgrass_raster": {
+    "checked": 1790866008
+   },
+   "forestry_and_land_use/net_soil_organic_carbon": {
+    "built": 1790866865,
+    "archives": [
+     "climate_trace_n2o_net_soil_organic_carbon"
+    ]
+   },
+   "forestry_and_land_use/net_soil_organic_carbon_raster": {
+    "checked": 1790866868
+   },
+   "forestry_and_land_use/net_wetland_raster": {
+    "checked": 1790866870
+   },
+   "forestry_and_land_use/removals_raster": {
+    "checked": 1790866871
+   },
+   "forestry_and_land_use/shrubgrass_fires_raster": {
+    "checked": 1790866874
+   },
+   "forestry_and_land_use/water_reservoirs": {
+    "built": 1790866943,
+    "archives": [
+     "climate_trace_n2o_water_reservoirs"
+    ]
+   },
+   "forestry_and_land_use/wetland_fires": {
+    "built": 1790867803,
+    "archives": [
+     "climate_trace_n2o_wetland_fires"
+    ]
    }
   },
-  "built": 1790777953
+  "built": 1790867803
  }
 }
