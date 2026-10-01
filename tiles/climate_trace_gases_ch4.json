@@ -99,6 +99,22 @@
     "files": 3
    },
    {
+    "id": "climate_trace_ch4_net_soil_organic_carbon",
+    "subsector": "net_soil_organic_carbon",
+    "label": "net soil organic carbon",
+    "sector": "forestry_and_land_use",
+    "bytes": 156471042,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_ch4_net_wetland",
+    "subsector": "net_wetland",
+    "label": "net wetland",
+    "sector": "forestry_and_land_use",
+    "bytes": 161233897,
+    "files": 2
+   },
+   {
     "id": "climate_trace_ch4_oil_and_gas_production",
     "subsector": "oil_and_gas_production",
     "label": "oil and gas production",
@@ -121,6 +137,14 @@
     "sector": "fossil_fuel_operations",
     "bytes": 6326170,
     "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_shrubgrass_fires",
+    "subsector": "shrubgrass_fires",
+    "label": "shrubgrass fires",
+    "sector": "forestry_and_land_use",
+    "bytes": 150421654,
+    "files": 2
    },
    {
     "id": "climate_trace_ch4_solid_waste_disposal",
@@ -295,8 +319,49 @@
    "forestry_and_land_use/net_forest_land": {
     "built": 1790778090,
     "archives": []
+   },
+   "forestry_and_land_use/net_shrubgrass": {
+    "built": 1790865168,
+    "archives": []
+   },
+   "forestry_and_land_use/net_wetland": {
+    "built": 1790865840,
+    "archives": [
+     "climate_trace_ch4_net_wetland"
+    ]
+   },
+   "forestry_and_land_use/removals": {
+    "built": 1790866501,
+    "archives": []
+   },
+   "forestry_and_land_use/shrubgrass_fires": {
+    "built": 1790867154,
+    "archives": [
+     "climate_trace_ch4_shrubgrass_fires"
+    ]
+   },
+   "forestry_and_land_use/forest_land_clearing_raster": {
+    "checked": 1790867156
+   },
+   "forestry_and_land_use/forest_land_degradation_raster": {
+    "checked": 1790867158
+   },
+   "forestry_and_land_use/forest_land_fires_raster": {
+    "checked": 1790867160
+   },
+   "forestry_and_land_use/net_forest_land_raster": {
+    "checked": 1790867162
+   },
+   "forestry_and_land_use/net_shrubgrass_raster": {
+    "checked": 1790867164
+   },
+   "forestry_and_land_use/net_soil_organic_carbon": {
+    "built": 1790867817,
+    "archives": [
+     "climate_trace_ch4_net_soil_organic_carbon"
+    ]
    }
   },
-  "built": 1790778090
+  "built": 1790867817
  }
 }
