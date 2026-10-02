@@ -3,6 +3,30 @@
   "name": "methane",
   "archives": [
    {
+    "id": "climate_trace_ch4_aluminum",
+    "subsector": "aluminum",
+    "label": "aluminum",
+    "sector": "manufacturing",
+    "bytes": 2075906,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_cement",
+    "subsector": "cement",
+    "label": "cement",
+    "sector": "manufacturing",
+    "bytes": 12838342,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_chemicals",
+    "subsector": "chemicals",
+    "label": "chemicals",
+    "sector": "manufacturing",
+    "bytes": 2983390,
+    "files": 1
+   },
+   {
     "id": "climate_trace_ch4_coal_mining",
     "subsector": "coal_mining",
     "label": "coal mining",
@@ -27,12 +51,36 @@
     "files": 3
    },
    {
+    "id": "climate_trace_ch4_domestic_aviation",
+    "subsector": "domestic_aviation",
+    "label": "domestic aviation",
+    "sector": "transportation",
+    "bytes": 52266120,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_domestic_shipping",
+    "subsector": "domestic_shipping",
+    "label": "domestic shipping",
+    "sector": "transportation",
+    "bytes": 94947107,
+    "files": 1
+   },
+   {
     "id": "climate_trace_ch4_domestic_wastewater_treatment_and_discharge",
     "subsector": "domestic_wastewater_treatment_and_discharge",
     "label": "domestic wastewater treatment and discharge",
     "sector": "waste",
     "bytes": 582400644,
     "files": 9
+   },
+   {
+    "id": "climate_trace_ch4_electricity_generation",
+    "subsector": "electricity_generation",
+    "label": "electricity generation",
+    "sector": "power",
+    "bytes": 39178626,
+    "files": 1
    },
    {
     "id": "climate_trace_ch4_enteric_fermentation_cattle_operation",
@@ -49,6 +97,14 @@
     "sector": "agriculture",
     "bytes": 175030927,
     "files": 3
+   },
+   {
+    "id": "climate_trace_ch4_food_beverage_tobacco",
+    "subsector": "food_beverage_tobacco",
+    "label": "food beverage tobacco",
+    "sector": "manufacturing",
+    "bytes": 61645216,
+    "files": 1
    },
    {
     "id": "climate_trace_ch4_forest_land_clearing",
@@ -75,11 +131,51 @@
     "files": 2
    },
    {
+    "id": "climate_trace_ch4_glass",
+    "subsector": "glass",
+    "label": "glass",
+    "sector": "manufacturing",
+    "bytes": 4712003,
+    "files": 1
+   },
+   {
     "id": "climate_trace_ch4_industrial_wastewater_treatment_and_discharge",
     "subsector": "industrial_wastewater_treatment_and_discharge",
     "label": "industrial wastewater treatment and discharge",
     "sector": "waste",
     "bytes": 8916568,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_international_aviation",
+    "subsector": "international_aviation",
+    "label": "international aviation",
+    "sector": "transportation",
+    "bytes": 23834382,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_international_shipping",
+    "subsector": "international_shipping",
+    "label": "international shipping",
+    "sector": "transportation",
+    "bytes": 71416058,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_iron_and_steel",
+    "subsector": "iron_and_steel",
+    "label": "iron and steel",
+    "sector": "manufacturing",
+    "bytes": 6412071,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_lime",
+    "subsector": "lime",
+    "label": "lime",
+    "sector": "manufacturing",
+    "bytes": 13707922,
     "files": 1
    },
    {
@@ -139,6 +235,46 @@
     "files": 1
    },
    {
+    "id": "climate_trace_ch4_other_chemicals",
+    "subsector": "other_chemicals",
+    "label": "other chemicals",
+    "sector": "manufacturing",
+    "bytes": 2688174,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_other_manufacturing",
+    "subsector": "other_manufacturing",
+    "label": "other manufacturing",
+    "sector": "manufacturing",
+    "bytes": 2802269,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_other_metals",
+    "subsector": "other_metals",
+    "label": "other metals",
+    "sector": "manufacturing",
+    "bytes": 2908158,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_petrochemical_steam_cracking",
+    "subsector": "petrochemical_steam_cracking",
+    "label": "petrochemical steam cracking",
+    "sector": "manufacturing",
+    "bytes": 1869474,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_pulp_and_paper",
+    "subsector": "pulp_and_paper",
+    "label": "pulp and paper",
+    "sector": "manufacturing",
+    "bytes": 2348500,
+    "files": 1
+   },
+   {
     "id": "climate_trace_ch4_shrubgrass_fires",
     "subsector": "shrubgrass_fires",
     "label": "shrubgrass fires",
@@ -160,6 +296,30 @@
     "label": "synthetic fertilizer application",
     "sector": "agriculture",
     "bytes": 160530967,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_ch4_textiles_leather_apparel",
+    "subsector": "textiles_leather_apparel",
+    "label": "textiles leather apparel",
+    "sector": "manufacturing",
+    "bytes": 37089880,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_water_reservoirs",
+    "subsector": "water_reservoirs",
+    "label": "water reservoirs",
+    "sector": "forestry_and_land_use",
+    "bytes": 65979550,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_ch4_wetland_fires",
+    "subsector": "wetland_fires",
+    "label": "wetland fires",
+    "sector": "forestry_and_land_use",
+    "bytes": 146560175,
     "files": 2
    }
   ],
@@ -360,8 +520,178 @@
     "archives": [
      "climate_trace_ch4_net_soil_organic_carbon"
     ]
+   },
+   "forestry_and_land_use/net_soil_organic_carbon_raster": {
+    "checked": 1790947713
+   },
+   "forestry_and_land_use/net_wetland_raster": {
+    "checked": 1790947714
+   },
+   "forestry_and_land_use/removals_raster": {
+    "checked": 1790947716
+   },
+   "forestry_and_land_use/shrubgrass_fires_raster": {
+    "checked": 1790947717
+   },
+   "forestry_and_land_use/water_reservoirs": {
+    "built": 1790947802,
+    "archives": [
+     "climate_trace_ch4_water_reservoirs"
+    ]
+   },
+   "forestry_and_land_use/wetland_fires": {
+    "built": 1790948734,
+    "archives": [
+     "climate_trace_ch4_wetland_fires"
+    ]
+   },
+   "forestry_and_land_use/wetland_fires_raster": {
+    "checked": 1790948736
+   },
+   "power/electricity_generation": {
+    "built": 1790948855,
+    "archives": [
+     "climate_trace_ch4_electricity_generation"
+    ]
+   },
+   "power/other_energy_use": {
+    "checked": 1790948856
+   },
+   "power/heat_plants": {
+    "checked": 1790948857
+   },
+   "manufacturing/aluminum": {
+    "built": 1790948863,
+    "archives": [
+     "climate_trace_ch4_aluminum"
+    ]
+   },
+   "manufacturing/cement": {
+    "built": 1790948889,
+    "archives": [
+     "climate_trace_ch4_cement"
+    ]
+   },
+   "manufacturing/chemicals": {
+    "built": 1790948895,
+    "archives": [
+     "climate_trace_ch4_chemicals"
+    ]
+   },
+   "manufacturing/other_manufacturing": {
+    "built": 1790948900,
+    "archives": [
+     "climate_trace_ch4_other_manufacturing"
+    ]
+   },
+   "manufacturing/petrochemical_steam_cracking": {
+    "built": 1790948903,
+    "archives": [
+     "climate_trace_ch4_petrochemical_steam_cracking"
+    ]
+   },
+   "manufacturing/pulp_and_paper": {
+    "built": 1790948907,
+    "archives": [
+     "climate_trace_ch4_pulp_and_paper"
+    ]
+   },
+   "manufacturing/iron_and_steel": {
+    "built": 1790948920,
+    "archives": [
+     "climate_trace_ch4_iron_and_steel"
+    ]
+   },
+   "manufacturing/other_chemicals": {
+    "built": 1790948926,
+    "archives": [
+     "climate_trace_ch4_other_chemicals"
+    ]
+   },
+   "manufacturing/glass": {
+    "built": 1790948932,
+    "archives": [
+     "climate_trace_ch4_glass"
+    ]
+   },
+   "manufacturing/lime": {
+    "built": 1790948952,
+    "archives": [
+     "climate_trace_ch4_lime"
+    ]
+   },
+   "manufacturing/food_beverage_tobacco": {
+    "built": 1790949117,
+    "archives": [
+     "climate_trace_ch4_food_beverage_tobacco"
+    ]
+   },
+   "manufacturing/wood_and_wood_products": {
+    "checked": 1790949118
+   },
+   "manufacturing/textiles_leather_apparel": {
+    "built": 1790949240,
+    "archives": [
+     "climate_trace_ch4_textiles_leather_apparel"
+    ]
+   },
+   "manufacturing/other_metals": {
+    "built": 1790949245,
+    "archives": [
+     "climate_trace_ch4_other_metals"
+    ]
+   },
+   "transportation/domestic_aviation": {
+    "built": 1790949313,
+    "archives": [
+     "climate_trace_ch4_domestic_aviation"
+    ]
+   },
+   "transportation/domestic_shipping": {
+    "built": 1790949427,
+    "archives": [
+     "climate_trace_ch4_domestic_shipping"
+    ]
+   },
+   "transportation/domestic_shipping_ship": {
+    "checked": 1790949429
+   },
+   "transportation/international_aviation": {
+    "built": 1790949459,
+    "archives": [
+     "climate_trace_ch4_international_aviation"
+    ]
+   },
+   "transportation/international_shipping": {
+    "built": 1790949563,
+    "archives": [
+     "climate_trace_ch4_international_shipping"
+    ]
+   },
+   "transportation/international_shipping_ship": {
+    "checked": 1790949564
+   },
+   "transportation/non_broadcasting_vessels": {
+    "checked": 1790949565
+   },
+   "transportation/other_transport": {
+    "checked": 1790949566
+   },
+   "transportation/railways": {
+    "checked": 1790949568
+   },
+   "transportation/road_transportation": {
+    "built": 1790951211,
+    "archives": []
+   },
+   "transportation/road_transportation_road_segment": {
+    "checked": 1790951212
+   },
+   "buildings/non_residential_onsite_fuel_usage": {
+    "built": 1790952368,
+    "archives": []
    }
   },
-  "built": 1790867817
+  "built": 1790952368
  }
 }
