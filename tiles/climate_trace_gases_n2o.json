@@ -3,12 +3,76 @@
   "name": "nitrous oxide",
   "archives": [
    {
+    "id": "climate_trace_n2o_aluminum",
+    "subsector": "aluminum",
+    "label": "aluminum",
+    "sector": "manufacturing",
+    "bytes": 2075412,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_cement",
+    "subsector": "cement",
+    "label": "cement",
+    "sector": "manufacturing",
+    "bytes": 12836007,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_chemicals",
+    "subsector": "chemicals",
+    "label": "chemicals",
+    "sector": "manufacturing",
+    "bytes": 2985691,
+    "files": 1
+   },
+   {
     "id": "climate_trace_n2o_crop_residues",
     "subsector": "crop_residues",
     "label": "crop residues",
     "sector": "agriculture",
     "bytes": 260002543,
     "files": 4
+   },
+   {
+    "id": "climate_trace_n2o_domestic_aviation",
+    "subsector": "domestic_aviation",
+    "label": "domestic aviation",
+    "sector": "transportation",
+    "bytes": 52254861,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_domestic_shipping",
+    "subsector": "domestic_shipping",
+    "label": "domestic shipping",
+    "sector": "transportation",
+    "bytes": 94805987,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_domestic_wastewater_treatment_and_discharge",
+    "subsector": "domestic_wastewater_treatment_and_discharge",
+    "label": "domestic wastewater treatment and discharge",
+    "sector": "waste",
+    "bytes": 582380558,
+    "files": 9
+   },
+   {
+    "id": "climate_trace_n2o_electricity_generation",
+    "subsector": "electricity_generation",
+    "label": "electricity generation",
+    "sector": "power",
+    "bytes": 39169257,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_food_beverage_tobacco",
+    "subsector": "food_beverage_tobacco",
+    "label": "food beverage tobacco",
+    "sector": "manufacturing",
+    "bytes": 66366775,
+    "files": 1
    },
    {
     "id": "climate_trace_n2o_forest_land_clearing",
@@ -33,6 +97,54 @@
     "sector": "forestry_and_land_use",
     "bytes": 151901898,
     "files": 2
+   },
+   {
+    "id": "climate_trace_n2o_glass",
+    "subsector": "glass",
+    "label": "glass",
+    "sector": "manufacturing",
+    "bytes": 4660367,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_industrial_wastewater_treatment_and_discharge",
+    "subsector": "industrial_wastewater_treatment_and_discharge",
+    "label": "industrial wastewater treatment and discharge",
+    "sector": "waste",
+    "bytes": 14125780,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_international_aviation",
+    "subsector": "international_aviation",
+    "label": "international aviation",
+    "sector": "transportation",
+    "bytes": 23844038,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_international_shipping",
+    "subsector": "international_shipping",
+    "label": "international shipping",
+    "sector": "transportation",
+    "bytes": 71051209,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_iron_and_steel",
+    "subsector": "iron_and_steel",
+    "label": "iron and steel",
+    "sector": "manufacturing",
+    "bytes": 6410334,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_lime",
+    "subsector": "lime",
+    "label": "lime",
+    "sector": "manufacturing",
+    "bytes": 13696516,
+    "files": 1
    },
    {
     "id": "climate_trace_n2o_manure_applied_to_soils",
@@ -75,6 +187,46 @@
     "files": 2
    },
    {
+    "id": "climate_trace_n2o_other_chemicals",
+    "subsector": "other_chemicals",
+    "label": "other chemicals",
+    "sector": "manufacturing",
+    "bytes": 2810593,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_other_manufacturing",
+    "subsector": "other_manufacturing",
+    "label": "other manufacturing",
+    "sector": "manufacturing",
+    "bytes": 2841690,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_other_metals",
+    "subsector": "other_metals",
+    "label": "other metals",
+    "sector": "manufacturing",
+    "bytes": 2919016,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_petrochemical_steam_cracking",
+    "subsector": "petrochemical_steam_cracking",
+    "label": "petrochemical steam cracking",
+    "sector": "manufacturing",
+    "bytes": 1492661,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_pulp_and_paper",
+    "subsector": "pulp_and_paper",
+    "label": "pulp and paper",
+    "sector": "manufacturing",
+    "bytes": 2347782,
+    "files": 1
+   },
+   {
     "id": "climate_trace_n2o_rice_cultivation",
     "subsector": "rice_cultivation",
     "label": "rice cultivation",
@@ -89,6 +241,22 @@
     "sector": "forestry_and_land_use",
     "bytes": 150424186,
     "files": 2
+   },
+   {
+    "id": "climate_trace_n2o_solid_waste_disposal",
+    "subsector": "solid_waste_disposal",
+    "label": "solid waste disposal",
+    "sector": "waste",
+    "bytes": 81507083,
+    "files": 1
+   },
+   {
+    "id": "climate_trace_n2o_textiles_leather_apparel",
+    "subsector": "textiles_leather_apparel",
+    "label": "textiles leather apparel",
+    "sector": "manufacturing",
+    "bytes": 37057394,
+    "files": 1
    },
    {
     "id": "climate_trace_n2o_water_reservoirs",
@@ -270,8 +438,171 @@
     "archives": [
      "climate_trace_n2o_wetland_fires"
     ]
+   },
+   "forestry_and_land_use/wetland_fires_raster": {
+    "checked": 1790947862
+   },
+   "waste/biological_treatment_of_solid_waste_and_biogenic": {
+    "checked": 1790947869
+   },
+   "waste/domestic_wastewater_treatment_and_discharge": {
+    "built": 1790949862,
+    "archives": [
+     "climate_trace_n2o_domestic_wastewater_treatment_and_discharge"
+    ]
+   },
+   "waste/incineration_and_open_burning_of_waste": {
+    "checked": 1790949863
+   },
+   "waste/industrial_wastewater_treatment_and_discharge": {
+    "built": 1790949880,
+    "archives": [
+     "climate_trace_n2o_industrial_wastewater_treatment_and_discharge"
+    ]
+   },
+   "waste/solid_waste_disposal": {
+    "built": 1790950040,
+    "archives": [
+     "climate_trace_n2o_solid_waste_disposal"
+    ]
+   },
+   "power/electricity_generation": {
+    "built": 1790950158,
+    "archives": [
+     "climate_trace_n2o_electricity_generation"
+    ]
+   },
+   "power/other_energy_use": {
+    "checked": 1790950158
+   },
+   "power/heat_plants": {
+    "checked": 1790950159
+   },
+   "manufacturing/aluminum": {
+    "built": 1790950165,
+    "archives": [
+     "climate_trace_n2o_aluminum"
+    ]
+   },
+   "manufacturing/cement": {
+    "built": 1790950191,
+    "archives": [
+     "climate_trace_n2o_cement"
+    ]
+   },
+   "manufacturing/chemicals": {
+    "built": 1790950196,
+    "archives": [
+     "climate_trace_n2o_chemicals"
+    ]
+   },
+   "manufacturing/other_manufacturing": {
+    "built": 1790950201,
+    "archives": [
+     "climate_trace_n2o_other_manufacturing"
+    ]
+   },
+   "manufacturing/petrochemical_steam_cracking": {
+    "built": 1790950205,
+    "archives": [
+     "climate_trace_n2o_petrochemical_steam_cracking"
+    ]
+   },
+   "manufacturing/pulp_and_paper": {
+    "built": 1790950209,
+    "archives": [
+     "climate_trace_n2o_pulp_and_paper"
+    ]
+   },
+   "manufacturing/iron_and_steel": {
+    "built": 1790950222,
+    "archives": [
+     "climate_trace_n2o_iron_and_steel"
+    ]
+   },
+   "manufacturing/other_chemicals": {
+    "built": 1790950227,
+    "archives": [
+     "climate_trace_n2o_other_chemicals"
+    ]
+   },
+   "manufacturing/glass": {
+    "built": 1790950233,
+    "archives": [
+     "climate_trace_n2o_glass"
+    ]
+   },
+   "manufacturing/lime": {
+    "built": 1790950253,
+    "archives": [
+     "climate_trace_n2o_lime"
+    ]
+   },
+   "manufacturing/food_beverage_tobacco": {
+    "built": 1790950419,
+    "archives": [
+     "climate_trace_n2o_food_beverage_tobacco"
+    ]
+   },
+   "manufacturing/wood_and_wood_products": {
+    "checked": 1790950422
+   },
+   "manufacturing/textiles_leather_apparel": {
+    "built": 1790950542,
+    "archives": [
+     "climate_trace_n2o_textiles_leather_apparel"
+    ]
+   },
+   "manufacturing/other_metals": {
+    "built": 1790950548,
+    "archives": [
+     "climate_trace_n2o_other_metals"
+    ]
+   },
+   "transportation/domestic_aviation": {
+    "built": 1790950618,
+    "archives": [
+     "climate_trace_n2o_domestic_aviation"
+    ]
+   },
+   "transportation/domestic_shipping": {
+    "built": 1790950733,
+    "archives": [
+     "climate_trace_n2o_domestic_shipping"
+    ]
+   },
+   "transportation/domestic_shipping_ship": {
+    "checked": 1790950734
+   },
+   "transportation/international_aviation": {
+    "built": 1790950763,
+    "archives": [
+     "climate_trace_n2o_international_aviation"
+    ]
+   },
+   "transportation/international_shipping": {
+    "built": 1790950867,
+    "archives": [
+     "climate_trace_n2o_international_shipping"
+    ]
+   },
+   "transportation/international_shipping_ship": {
+    "checked": 1790950869
+   },
+   "transportation/non_broadcasting_vessels": {
+    "checked": 1790950870
+   },
+   "transportation/other_transport": {
+    "checked": 1790950872
+   },
+   "transportation/railways": {
+    "checked": 1790950873
+   },
+   "transportation/road_transportation": {
+    "built": 1790952500,
+    "archives": []
    }
   },
-  "built": 1790867803
+  "built": 1790952500
  }
 }
