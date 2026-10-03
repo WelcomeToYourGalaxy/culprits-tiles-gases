@@ -1,0 +1,35 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_residential_onsite_fuel_usage.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 87279061
+  },
+  {
+   "file": "climate_trace_n2o_residential_onsite_fuel_usage_2.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 49170024
+  },
+  {
+   "file": "climate_trace_n2o_residential_onsite_fuel_usage_3.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 57777369
+  },
+  {
+   "file": "climate_trace_n2o_residential_onsite_fuel_usage_4.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 64925792
+  },
+  {
+   "file": "climate_trace_n2o_residential_onsite_fuel_usage_5.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 69314739
+  }
+ ],
+ "zoom": 12
+}

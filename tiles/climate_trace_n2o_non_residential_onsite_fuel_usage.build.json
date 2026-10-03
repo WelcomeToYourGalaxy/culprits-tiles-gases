@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_non_residential_onsite_fuel_usage.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 70274900
+  },
+  {
+   "file": "climate_trace_n2o_non_residential_onsite_fuel_usage_2.pmtiles",
+   "from": 9,
+   "to": 10,
+   "bytes": 67013543
+  },
+  {
+   "file": "climate_trace_n2o_non_residential_onsite_fuel_usage_3.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 90682081
+  }
+ ],
+ "zoom": 12
+}
