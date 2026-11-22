@@ -10,19 +10,19 @@
    "file": "climate_trace_n2o_manure_management_cattle_operation_2.pmtiles",
    "from": 10,
    "to": 10,
-   "bytes": 75367925
+   "bytes": 75367924
   },
   {
    "file": "climate_trace_n2o_manure_management_cattle_operation_3.pmtiles",
    "from": 11,
    "to": 11,
-   "bytes": 91015714
+   "bytes": 91015712
   },
   {
    "file": "climate_trace_n2o_manure_management_cattle_operation_4.pmtiles",
    "from": 12,
    "to": 12,
-   "bytes": 59208727,
+   "bytes": 59208725,
    "columns": [
     253,
     2034
